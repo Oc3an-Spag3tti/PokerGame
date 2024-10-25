@@ -1,0 +1,12 @@
+.rotate-y-180 {
+  transform: rotateY(180deg);
+  transition: transform 0.7s;
+}
+
+.card-container {
+  perspective: 1000px; 
+}
+
+.card-container .card {
+  transform-style: preserve-3d; 
+}
